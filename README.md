@@ -76,7 +76,7 @@ Linux には対応していません。
 
 最新のビルドはこちらからダウンロードできます:
 
-* [NvmeMate 1.0.0 (最新)](https://github.com/ydipeepo/nvme-mate/releases/tag/1.0.0)
+* [NvmeMate 1.0.1 (最新)](https://github.com/ydipeepo/nvme-mate/releases/tag/1.0.1)
 
 または、自身でビルドし同じファイルを作成することも可能です。
 Visual Studio 2019 上もしくは以下のコマンドでビルドします:
