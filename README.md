@@ -1,4 +1,4 @@
-﻿
+﻿日本語 | [中文](https://github.com/ydipeepo/nvme-mate/blob/master/README.zh-CN.md)
 
 
 
@@ -10,19 +10,19 @@
 
 ## 何これ
 
-NVMeMate は NVMe SSD の S.M.A.R.T. 属性を監視し、その情報を Windows Performance Monitor に提供します。
+NvmeMate は NVMe SSD の S.M.A.R.T. 属性を監視し、その情報を Windows Performance Monitor に提供します。
 標準の機能では SSD を監視できなかったので PoC マイナーのため作成しました。
 Performance Monitor を使用しているため複数の Windows マシンに導入すれば横断的に SSD を監視できます。
 
 
 
-![キャプチャ](https://raw.githubusercontent.com/ydipeepo/nvme-mate/master/doc/nvme-mate.gif)
+![動作中の画面](https://raw.githubusercontent.com/ydipeepo/nvme-mate/master/doc/nvme-mate.gif)
 
 
 
 #### 主な機能
 
-NVMeMate は次の S.M.A.R.T. 属性をカウンターとして Performance Monitor に提供します:
+NvmeMate は次の S.M.A.R.T. 属性をカウンターとして Performance Monitor に提供します:
 
 * Temperature (K / deg. C) `1`
 * Available Spare `3`
@@ -79,7 +79,7 @@ Linux には対応していません。
 * [NvmeMate 1.0.0 (最新)](https://github.com/ydipeepo/nvme-mate/releases/tag/1.0.0)
 
 または、自身でビルドし同じファイルを作成することも可能です。
-Visual Studio 2019 上もしくは以下のコマンドでのビルドに対応しています:
+Visual Studio 2019 上もしくは以下のコマンドでビルドします:
 
 ```bash
 git clone https://github.com/ydipeepo/nvme-mate.git .
@@ -94,11 +94,11 @@ dotnet build --configuration Release
 ダウンロードもしくはビルドし生成された `nvme-mate.exe` を実行します。
 コンソール画面が一つ現れたらそのまま Performance Monitor を起動 (`perfmon.msc` を実行) します。
 
-![PerfMon (1)](https://raw.githubusercontent.com/ydipeepo/nvme-mate/master/doc/perfmon-1.png)
+![PerfMon 画面 (1)](https://raw.githubusercontent.com/ydipeepo/nvme-mate/master/doc/perfmon-1.png)
 
 使用可能なカウンターとして `NVMe S.M.A.R.T.` が追加されていれば正常に動作しています。
 
-![PerfMon (2)](https://raw.githubusercontent.com/ydipeepo/nvme-mate/master/doc/perfmon-2.png)
+![PerfMon 画面 (2)](https://raw.githubusercontent.com/ydipeepo/nvme-mate/master/doc/perfmon-2.png)
 
 `nvme-mate.exe` が実行されている限りカウンタは更新され続けます。
 
@@ -117,7 +117,7 @@ Performance Monitor に登録されたカウンタは終了時に自動的に削
 
 ## コマンドライン引数
 
-より細かく NVMeMate を制御したい場合、以下のコマンドライン引数を指定できます。
+より細かく制御したい場合、以下のコマンドライン引数を指定できます。
 
 
 
