@@ -1,8 +1,8 @@
+﻿
 
 
 
-
-![NVMeMate](https://github.com/ydipeepo/nvme-mate/raw/master/doc/super-ultra-great-logo.png)
+![NvmeMate](https://github.com/ydipeepo/nvme-mate/raw/master/doc/super-ultra-great-logo.png)
 
 
 
@@ -76,14 +76,14 @@ Linux には対応していません。
 
 最新のビルドはこちらからダウンロードできます:
 
-* nvme-mate-0.1.0-2021050601.zip (0.1.0, 最新)
+* [NvmeMate 1.0.0 (最新)](https://github.com/ydipeepo/nvme-mate/releases/tag/1.0.0)
 
 または、自身でビルドし同じファイルを作成することも可能です。
 Visual Studio 2019 上もしくは以下のコマンドでのビルドに対応しています:
 
 ```bash
 git clone https://github.com/ydipeepo/nvme-mate.git .
-cd ./src/Ydi.NVMeMate
+cd ./src/Ydi.NvmeMate
 dotnet build --configuration Release
 ```
 
@@ -226,8 +226,8 @@ Ydi ([@ydipeepo](https://twitter.com/ydipeepo)) が作成し、BSD-3-Clause の�
 ライセンスに準拠しますが、その上で直接デジタル資産を扱う環境で動作することを目的に作ったものです。
 以下一点だけ追加の注意とともにご理解くださいますようお願いいたします:
 
-> https://github.com/ydipeepo/nvme-mate 以外から配布されているものについて Ydi は一切関知しておりません。
-> 必要な場合は細心の注意を払いご自身の責任のもと管理実行してください。
+> https://github.com/ydipeepo/nvme-mate/releases 以外から配布されているものについて Ydi は一切関知しておりません。
+> 公式以外からダウンロードが必要な場合は細心の注意を払いご自身の責任のもと管理実行してください。
 > 公式ビルド済みバイナリが不安な場合はご自身でソースコードを確認しビルドいただくことも可能です。
 
 
