@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "NvmeMate": {
+      "commandName": "Project",
+      "commandLineArgs": "--plot --interval 250"
+    }
+  }
+}
