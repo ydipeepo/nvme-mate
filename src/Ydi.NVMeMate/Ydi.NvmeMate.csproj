@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net5.0</TargetFramework>
+		<RootNamespace>Ydi</RootNamespace>
+		<Authors>Ydi</Authors>
+		<Copyright>2021 Ydi (@ydipeepo)</Copyright>
+		<Platforms>x64</Platforms>
+		<AssemblyName>nvme-mate</AssemblyName>
+		<ApplicationManifest>Resources/Ydi.NvmeMate.manifest</ApplicationManifest>
+		<PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
+		<PackageProjectUrl>https://github.com/nvme-mate</PackageProjectUrl>
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+		<Description>This program observes the S.M.A.R.T. attributes of your NVMe drives then provide it to the Windows Performance Monitor.</Description>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="System.CommandLine" Version="2.0.0-beta1.21216.1" />
+		<PackageReference Include="System.CommandLine.Rendering" Version="0.3.0-alpha.21216.1" />
+		<PackageReference Include="System.Diagnostics.PerformanceCounter" Version="5.0.1" />
+		<PackageReference Include="System.Management" Version="5.0.0" />
+		<PackageReference Include="System.Reactive.Core" Version="5.0.0" />
+	</ItemGroup>
+</Project>

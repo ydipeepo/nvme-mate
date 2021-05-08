@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ARG_CLEAN_HELP" xml:space="preserve">
+    <value>Performance Monitor に登録したカウンターをすべて削除しそのまま終了します。</value>
+  </data>
+  <data name="ARG_HYDRA_HELP" xml:space="preserve">
+    <value>終了時に Performance Monitor に登録したカウンターを削除しないようにします。</value>
+  </data>
+  <data name="ARG_INTERVAL_HELP" xml:space="preserve">
+    <value>S.M.A.R.T. 属性を監視しカウンタを更新する間隔をミリ秒で指定します。</value>
+  </data>
+  <data name="ARG_LANG_HELP" xml:space="preserve">
+    <value>指定した言語リソースを使用するよう強制します。</value>
+  </data>
+  <data name="ARG_PLOT_HELP" xml:space="preserve">
+    <value>S.M.A.R.T. 属性をコンソールにプロットするようにします。</value>
+  </data>
+  <data name="ARG_SCAN_HELP" xml:space="preserve">
+    <value>物理ドライブのスキャンのみを行いそのまま終了します。</value>
+  </data>
+  <data name="ARG_SCAN_RANGE_HELP" xml:space="preserve">
+    <value>物理ドライブのスキャン範囲を指定します。</value>
+  </data>
+  <data name="ARG_SKIP_HELP" xml:space="preserve">
+    <value>指定した番号の物理ドライブを無視します。</value>
+  </data>
+  <data name="AVAILABLE_SPARE_HELP" xml:space="preserve">
+    <value>正規化された割合 (0~100%) で表現される利用可能な残りスペア容量。100 から始まり減少します。</value>
+  </data>
+  <data name="AVAILABLE_SPARE_NAME" xml:space="preserve">
+    <value>Available Spare</value>
+    <comment>DO NOT EDIT THIS</comment>
+  </data>
+  <data name="AVAILABLE_SPARE_THRESHOLD_HELP" xml:space="preserve">
+    <value>閾値は 10% に設定されています。</value>
+  </data>
+  <data name="AVAILABLE_SPARE_THRESHOLD_NAME" xml:space="preserve">
+    <value>Available Spare Threshold</value>
+    <comment>DO NOT EDIT THIS</comment>
+  </data>
+  <data name="CATEGORY_HELP" xml:space="preserve">
+    <value>検出された NVMe ドライブの S.M.A.R.T. 情報を含むカウンターセットです。</value>
+  </data>
+  <data name="CATEGORY_NAME" xml:space="preserve">
+    <value>NVMe S.M.A.R.T.</value>
+    <comment>DO NOT EDIT THIS</comment>
+  </data>
+  <data name="CONTROLLER_BUSY_TIME_HELP" xml:space="preserve">
+    <value>I/O コマンドによりコントローラーがビジー状態になっている時間を示します。I/O キューに未完了のコマンドがあるとコントローラーはビジーになります。(具体的には、コマンドが I/O 発信キューテール doorbell の書き込みで発行されたが、対応する完了キューエントリーが関連付けられている I/O 完了キューにポストされていない状態です)。この値は分単位で報告されます。</value>
+  </data>
+  <data name="CONTROLLER_BUSY_TIME_NAME" xml:space="preserve">
+    <value>Controller Busy Time (in minutes)</value>
+    <comment>DO NOT EDIT THIS</comment>
+  </data>
+  <data name="CRITICAL_COMPOSITE_TEMPERATURE_TIME_HELP" xml:space="preserve">
+    <value>コントローラーが動作している間、合成温度 (CTemp) が Identify Controller のデータ構造に含まれる合成温度クリティカル閾値 (CCTemp) フィールドより大きかった時間を分単位で表します。</value>
+  </data>
+  <data name="CRITICAL_COMPOSITE_TEMPERATURE_TIME_NAME" xml:space="preserve">
+    <value>Critical Composite Temperature Time</value>
+    <comment>DO NOT EDIT THIS</comment>
+  </data>
+  <data name="DATA_UNITS_READ_HELP" xml:space="preserve">
+    <value>ホストがコントローラーから読み取った 512 バイトのデータユニットの数を報告します。この値にはメタデータは含まれません。この値は 1000 単位で報告され (具体的には、カウンターの値が 1 の場合それは 512 バイトのデータの 1000 回の読み込みに相当します)、そして切り上げられます。LBA サイズが 512 バイト以外の値である場合、コントローラーは読み込んだデータの量を 512 バイト単位に変換します。</value>
+  </data>
+  <data name="DATA_UNITS_READ_NAME" xml:space="preserve">
+    <value>Data Units Read (in LBAs)</value>
+    <comment>DO NOT EDIT THIS</comment>
+  </data>
+  <data name="DATA_UNITS_WRITE_HELP" xml:space="preserve">
+    <value>ホストがコントローラーに書き込んだ 512 バイトのデータユニットの数を報告します。この値にはメタデータは含まれません。この値は 1000 単位で報告され (具体的には、カウンターの値が 1 の場合それは 512 バイトのデータの 1000 回の書き込みに相当します)、そして切り上げられます。LBA サイズが 512 バイト以外の値である場合、コントローラーは書き込んだデータの量を 512 バイト単位に変換します。NVM コマンドセットでは、書き込み操作の一部として記述された論理ブロックがこの値に含まれます。修正不可能なコマンドの書き込みはこの値に影響を与えません。</value>
+  </data>
+  <data name="DATA_UNITS_WRITE_NAME" xml:space="preserve">
+    <value>Data Units Write (in LBAs)</value>
+    <comment>DO NOT EDIT THIS</comment>
+  </data>
+  <data name="DESCRIPTION" xml:space="preserve">
+    <value>NVMeMate は NVMe SSD の S.M.A.R.T. 属性を監視し、その情報を Windows Performance Monitor に提供します。</value>
+  </data>
+  <data name="ERROR" xml:space="preserve">
+    <value>エラー</value>
+  </data>
+  <data name="ERROR_ALREADY_RUNNING" xml:space="preserve">
+    <value>既に起動しています。</value>
+  </data>
+  <data name="ERROR_UNSUPPORTED_BECAUSE_NOT_X64" xml:space="preserve">
+    <value>64 ビット環境以外では動作することができません。</value>
+  </data>
+  <data name="ERROR_UNSUPPORTED_OPERATING_SYSTEM" xml:space="preserve">
+    <value>このオペレーティングシステムでは動作することができません。</value>
+  </data>
+  <data name="HOST_READ_COMMANDS_HELP" xml:space="preserve">
+    <value>コントローラーに発行された読み込みコマンドの数を示します。</value>
+  </data>
+  <data name="HOST_READ_COMMANDS_NAME" xml:space="preserve">
+    <value>Host Read Commands</value>
+    <comment>DO NOT EDIT THIS</comment>
+  </data>
+  <data name="HOST_WRITE_COMMANDS_HELP" xml:space="preserve">
+    <value>コントローラーに発行された書き込みコマンドの数を示します。</value>
+  </data>
+  <data name="HOST_WRITE_COMMANDS_NAME" xml:space="preserve">
+    <value>Host Write Commands</value>
+    <comment>DO NOT EDIT THIS</comment>
+  </data>
+  <data name="LOG_CANNOT_DETECT_ANY_NVME_DRIVES" xml:space="preserve">
+    <value>NVMe ドライブが見つかりませんでした。
+</value>
+    <comment>\n</comment>
+  </data>
+  <data name="LOG_DETECTING_NVME_DRIVES" xml:space="preserve">
+    <value>NVMe ドライブを検出しています...
+</value>
+    <comment>\n</comment>
+  </data>
+  <data name="LOG_FAILED_TO_QUERY_SMART" xml:space="preserve">
+    <value>S.M.A.R.T. 属性の要求に失敗しました。</value>
+  </data>
+  <data name="LOG_QUITTING" xml:space="preserve">
+    <value>終了しています...
+</value>
+    <comment>\n</comment>
+  </data>
+  <data name="LOG_REGISTERING_PERFORMANCE_COUNTERS" xml:space="preserve">
+    <value>パフォーマンスカウンターを登録しています...
+</value>
+    <comment>\n</comment>
+  </data>
+  <data name="LOG_START_MONITORING" xml:space="preserve">
+    <value>モニターを開始します...
+</value>
+    <comment>\n</comment>
+  </data>
+  <data name="LOG_UNREGISTERING_PERFORMANCE_COUNTERS" xml:space="preserve">
+    <value>パフォーマンスカウンターの登録を解除しています...
+</value>
+    <comment>\n</comment>
+  </data>
+  <data name="MEDIA_ERRORS_HELP" xml:space="preserve">
+    <value>コントローラーが未回復のデータ整合性エラーを検出した回数を示します。訂正不能な ECC、CRC チェックサムのエラー、LBA タグの不一致などのエラーがこのカウンターに含まれます。</value>
+  </data>
+  <data name="MEDIA_ERRORS_NAME" xml:space="preserve">
+    <value>Media Errors</value>
+    <comment>DO NOT EDIT THIS</comment>
+  </data>
+  <data name="NOT_AVAILABLE" xml:space="preserve">
+    <value>利用不可</value>
+  </data>
+  <data name="NUMBER_OF_ERROR_INFORMATION_LOG_ENTRIES_HELP" xml:space="preserve">
+    <value>コントローラーの存続期間中のエラー情報のログエントリー数を示します。</value>
+  </data>
+  <data name="NUMBER_OF_ERROR_INFORMATION_LOG_ENTRIES_NAME" xml:space="preserve">
+    <value>Number of Error Information Log Entries</value>
+    <comment>DO NOT EDIT THIS</comment>
+  </data>
+  <data name="PERCENTAGE_USED_ESTIMATE_HELP" xml:space="preserve">
+    <value>(このカウンターは 100% を超える値を報告することがあります。) 値 100 は、デバイスの耐久性が消費されたことを示しますが、デバイスの障害を示すものではありません。値は 100 を超えることがあります。値が 254 より大きい場合は 255 として制限されます。この値は、電源投入毎 (コントローラーがスリープ状態でないとき) に 1 回ずつ更新されることになっています。</value>
+  </data>
+  <data name="PERCENTAGE_USED_ESTIMATE_NAME" xml:space="preserve">
+    <value>Percentage Used Estimate</value>
+    <comment>DO NOT EDIT THIS</comment>
+  </data>
+  <data name="POWER_CYCLES_HELP" xml:space="preserve">
+    <value>電源サイクル数を含みます。</value>
+  </data>
+  <data name="POWER_CYCLES_NAME" xml:space="preserve">
+    <value>Power Cycles</value>
+    <comment>DO NOT EDIT THIS</comment>
+  </data>
+  <data name="POWER_ON_HOURS_HELP" xml:space="preserve">
+    <value>電源投入時間を含みます。これは、コントローラーの電源がオフになっていたり、低電力状態になっている時間は含まれません。</value>
+  </data>
+  <data name="POWER_ON_HOURS_NAME" xml:space="preserve">
+    <value>Power-On Hours</value>
+    <comment>DO NOT EDIT THIS</comment>
+  </data>
+  <data name="TEMPERATURE_DEG_CELSIUS_HELP" xml:space="preserve">
+    <value>デバイス全体の現在の温度を摂氏で報告します。</value>
+  </data>
+  <data name="TEMPERATURE_DEG_CELSIUS_NAME" xml:space="preserve">
+    <value>Temperature (deg. C)</value>
+    <comment>DO NOT EDIT THIS</comment>
+  </data>
+  <data name="TEMPERATURE_KELVIN_HELP" xml:space="preserve">
+    <value>デバイス全体の現在の温度をケルビンで報告します。</value>
+  </data>
+  <data name="TEMPERATURE_KELVIN_NAME" xml:space="preserve">
+    <value>Temperature (K)</value>
+    <comment>DO NOT EDIT THIS</comment>
+  </data>
+  <data name="UNSAFE_SHUTDOWNS_HELP" xml:space="preserve">
+    <value>安全ではないシャットダウンの回数を含みます。この数は電源喪失前にシャットダウン通知 (CC.SHN) を受信しなかった場合に増加します。</value>
+  </data>
+  <data name="UNSAFE_SHUTDOWNS_NAME" xml:space="preserve">
+    <value>Unsafe Shutdowns</value>
+    <comment>DO NOT EDIT THIS</comment>
+  </data>
+  <data name="WARNING_COMPOSITE_TEMPERATURE_TIME_HELP" xml:space="preserve">
+    <value>コントローラーが動作している間、合成温度 (CTemp) が Identify Controller のデータ構造に含まれる合成温度警告閾値 (WCTemp) フィールド以上かつ合成温度クリティカル閾値 (CCTemp) フィールド未満であった時間を分単位で表します。</value>
+  </data>
+  <data name="WARNING_COMPOSITE_TEMPERATURE_TIME_NAME" xml:space="preserve">
+    <value>Warning Composite Temperature Time</value>
+    <comment>DO NOT EDIT THIS</comment>
+  </data>
+</root>
