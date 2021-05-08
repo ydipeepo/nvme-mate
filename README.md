@@ -1,4 +1,4 @@
-﻿日本語 | [中文](https://github.com/ydipeepo/nvme-mate/blob/master/README.zh-CN.md)
+﻿日本語 | [中文](https://github.com/ydipeepo/nvme-mate/blob/master/README.zh-CN.md) | [English](https://github.com/ydipeepo/nvme-mate/blob/master/README.en-US.md)
 
 
 
