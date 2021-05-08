@@ -8,7 +8,7 @@
 
 
 
-## 何これ
+## What is this
 
 NvmeMate observes the S.M.A.R.T. attributes of NVMe connected SSDs and provides this information to Windows Performance Monitor.
 It was created as a PoC minor because the standard functionality was not able to observe SSDs.
@@ -20,7 +20,7 @@ Since it uses Performance Monitor, it can be deployed on multiple Windows machin
 
 
 
-#### 主な機能
+#### Main feature
 
 NvmeMate provides the following S.M.A.R.T. attributes as counters to Performance Monitor:
 
