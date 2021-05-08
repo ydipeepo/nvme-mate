@@ -196,7 +196,7 @@ namespace Ydi.NvmeMate
 			var rootCommand = new RootCommand
 			{
 				new Option<string>("--lang", getDefaultValue: () => "ja-JP", description: stringLocalizer["ARG_LANG_HELP"]),
-				new Option<uint>("--interval", getDefaultValue: () => 1000, description: stringLocalizer["ARG_INTERVAL_HELP"]),
+				new Option<uint>("--interval", description: stringLocalizer["ARG_INTERVAL_HELP"]),
 				new Option<bool>("--plot", stringLocalizer["ARG_PLOT_HELP"]),
 				new Option<bool>("--scan", stringLocalizer["ARG_SCAN_HELP"]),
 				new Option<byte>("--scan-range", () => 8, stringLocalizer["ARG_SCAN_RANGE_HELP"]),

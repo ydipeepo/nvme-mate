@@ -1,5 +1,4 @@
-﻿using System;
-using System.CommandLine.Rendering;
+﻿using System.CommandLine.Rendering;
 
 namespace Ydi.NvmeMate
 {

@@ -8,18 +8,21 @@ namespace Ydi.NvmeMate
 	public sealed class StringLocalizer
 	{
 		static readonly Assembly executingAssembly = Assembly.GetExecutingAssembly();
-		readonly Dictionary<string, string> stringMap = new Dictionary<string, string>();
+		readonly Dictionary<string, string> stringMap = new();
 
 		static CultureInfo ParseLanguage(string language)
 		{
-			try
+			if (!string.IsNullOrWhiteSpace(language))
 			{
-				return new CultureInfo(language);
+				try
+				{
+					return new CultureInfo(language);
+				}
+				catch
+				{
+				}
 			}
-			catch
-			{
-				return new CultureInfo("en-US");
-			}
+			return CultureInfo.CurrentCulture;
 		}
 
 		public string this[string name] => stringMap[name];
