@@ -76,7 +76,7 @@ These are the steps to get started quickly.
 
 The latest compiled files can be downloaded from here:
 
-* [NvmeMate 1.0.0 (Latest)](https://github.com/ydipeepo/nvme-mate/releases/tag/1.0.0)
+* [NvmeMate 1.0.1 (Latest)](https://github.com/ydipeepo/nvme-mate/releases/tag/1.0.1)
 
 Alternatively, you can compile it yourself and create the same file.
 You can compile it in Visual Studio 2019 or with the following command:
