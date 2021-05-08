@@ -219,7 +219,7 @@ You can read more about it here:
 
 
 
-## ライセンス
+## License
 
 Created by Ydi ([@ydipeepo](https://twitter.com/ydipeepo)) and released under BSD-3-Clause. Please see LICENSE.md for details.
 
