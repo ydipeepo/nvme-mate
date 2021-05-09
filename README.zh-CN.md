@@ -60,6 +60,7 @@ NvmeMate将以下SMART属性作为计数器提供给性能监视器：
 ## 工作环境
 
 为了使其运行，需要连接NVMe SSD的64位Windows 10。
+此外，必须安装.NET5.0的运行时间。
 不支持Linux。
 
 
@@ -75,6 +76,10 @@ NvmeMate将以下SMART属性作为计数器提供给性能监视器：
 
 
 #### 下载或编译
+
+必须安装.NET5.0 Runtime：
+
+* [Download .NET (microsoft.com)[https://dotnet.microsoft.com/download] (外部网站)
 
 最新的文件可以从这里下载：
 
