@@ -58,6 +58,7 @@ NvmeMate は次の S.M.A.R.T. 属性をカウンターとして Performance Moni
 ## 動作環境
 
 動作させるためには NVMe SSD が接続された 64 ビット Windows 10 が必要です。
+また .NET 5.0 のランタイムがインストールされている必要があります。
 Linux には対応していません。
 
 
@@ -73,6 +74,10 @@ Linux には対応していません。
 
 
 #### ダウンロード
+
+.NET 5.0 Runtime がインストールされている必要があります:
+
+* [Download .NET (microsoft.com)](https://dotnet.microsoft.com/download) (外部リンク)
 
 最新のビルドはこちらからダウンロードできます:
 
