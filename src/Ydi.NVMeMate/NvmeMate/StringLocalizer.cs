@@ -22,7 +22,7 @@ namespace Ydi.NvmeMate
 				{
 				}
 			}
-			return CultureInfo.CurrentCulture;
+			return CultureInfo.InstalledUICulture;
 		}
 
 		public string this[string name] => stringMap[name];
@@ -48,7 +48,7 @@ namespace Ydi.NvmeMate
 		{
 		}
 		public StringLocalizer()
-			: this(CultureInfo.CurrentUICulture)
+			: this(CultureInfo.InstalledUICulture)
 		{
 		}
 	}
