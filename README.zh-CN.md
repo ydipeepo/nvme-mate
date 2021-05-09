@@ -7,7 +7,7 @@
 
 
 
-[![1.0.1](https://badgen.net/github/release/ydipeepo/nvme-mate)](https://github.com/ydipeepo/nvme-mate/releases/tag/1.0.1)
+[![1.0.2](https://badgen.net/github/release/ydipeepo/nvme-mate)](https://github.com/ydipeepo/nvme-mate/releases/tag/1.0.2)
 
 ## 这是什么
 
