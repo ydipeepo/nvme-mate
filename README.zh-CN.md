@@ -79,7 +79,7 @@ NvmeMate将以下SMART属性作为计数器提供给性能监视器：
 
 必须安装.NET5.0 Runtime：
 
-* [Download .NET (microsoft.com)[https://dotnet.microsoft.com/download] (外部网站)
+* [Download .NET (microsoft.com](https://dotnet.microsoft.com/download] (外部网站)
 
 最新的文件可以从这里下载：
 
