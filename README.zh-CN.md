@@ -83,7 +83,7 @@ NvmeMate将以下SMART属性作为计数器提供给性能监视器：
 
 最新的文件可以从这里下载：
 
-* [NvmeMate 1.0.1 (最新)](https://github.com/ydipeepo/nvme-mate/releases/tag/1.0.1)
+* [NvmeMate 1.0.2 (最新)](https://github.com/ydipeepo/nvme-mate/releases/tag/1.0.2)
 
 
 或者，也可以自己编译并创建同一个文件。
