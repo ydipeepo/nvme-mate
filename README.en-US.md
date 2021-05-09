@@ -59,6 +59,7 @@ NvmeMate provides the following S.M.A.R.T. attributes as counters to Performance
 ## Supported environment
 
 Requires 64-bit Windows 10 with NVMe SSD connected to run.
+You also need to have the .NET 5.0 runtime installed. 
 Linux is not supported.
 
 
@@ -74,6 +75,10 @@ These are the steps to get started quickly.
 
 
 #### Download / Compile
+
+.NET 5.0 Runtime must be installed:
+
+* [Download .NET (microsoft.com)](https://dotnet.microsoft.com/download) (external site)
 
 The latest compiled files can be downloaded from here:
 
