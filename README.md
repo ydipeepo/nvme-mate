@@ -6,7 +6,7 @@
 
 
 
-[![1.0.2](https://badgen.net/github/release/ydipeepo/nvme-mate)](https://github.com/ydipeepo/nvme-mate/releases/tag/1.0.2)
+[![1.0.3](https://badgen.net/github/release/ydipeepo/nvme-mate)](https://github.com/ydipeepo/nvme-mate/releases/tag/1.0.3)
 
 ## 何これ
 
@@ -81,7 +81,7 @@ Linux には対応していません。
 
 最新のビルドはこちらからダウンロードできます:
 
-* [NvmeMate 1.0.2 (最新)](https://github.com/ydipeepo/nvme-mate/releases/tag/1.0.2)
+* [NvmeMate 1.0.3 (最新)](https://github.com/ydipeepo/nvme-mate/releases/tag/1.0.3)
 
 または、自身でビルドし同じファイルを作成することも可能です。
 Visual Studio 2019 上もしくは以下のコマンドでビルドします:
