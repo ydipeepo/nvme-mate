@@ -174,7 +174,7 @@ namespace Ydi.NvmeMate
 			}
 			return 0;
 		}
-		public static Task<int> Main(string[] args)
+		public static async Task<int> Main(string[] args)
 		{
 			using var globalMutex = new Mutex(false, $"Global\\Ydi.NvmeMate");
 
@@ -222,7 +222,7 @@ namespace Ydi.NvmeMate
 						? CleanAsync(stringLocalizer, invocationContext, terminationToken)
 						: WatchAsync(stringLocalizer, invocationContext, terminationToken, interval, plot, scan, scanRange, skip, hydra);
 				});
-			return rootCommand.InvokeAsync(args);
+			return await rootCommand.InvokeAsync(args);
 		}
 	}
 }
