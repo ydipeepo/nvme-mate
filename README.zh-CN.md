@@ -7,7 +7,7 @@
 
 
 
-[![1.0.2](https://badgen.net/github/release/ydipeepo/nvme-mate)](https://github.com/ydipeepo/nvme-mate/releases/tag/1.0.2)
+[![1.0.3](https://badgen.net/github/release/ydipeepo/nvme-mate)](https://github.com/ydipeepo/nvme-mate/releases/tag/1.0.3)
 
 ## 这是什么
 
@@ -83,7 +83,7 @@ NvmeMate将以下S.M.A.R.T.属性作为计数器提供给性能监视器：
 
 最新的文件可以从这里下载：
 
-* [NvmeMate 1.0.2 (最新)](https://github.com/ydipeepo/nvme-mate/releases/tag/1.0.2)
+* [NvmeMate 1.0.2 (最新)](https://github.com/ydipeepo/nvme-mate/releases/tag/1.0.3)
 
 
 或者，也可以自己编译并创建同一个文件。
