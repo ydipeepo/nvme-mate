@@ -7,7 +7,7 @@
 
 
 
-[![1.0.2](https://badgen.net/github/release/ydipeepo/nvme-mate)](https://github.com/ydipeepo/nvme-mate/releases/tag/1.0.2)
+[![1.0.3](https://badgen.net/github/release/ydipeepo/nvme-mate)](https://github.com/ydipeepo/nvme-mate/releases/tag/1.0.3)
 
 ## What is this
 
@@ -82,7 +82,7 @@ These are the steps to get started quickly.
 
 The latest compiled files can be downloaded from here:
 
-* [NvmeMate 1.0.2 (Latest)](https://github.com/ydipeepo/nvme-mate/releases/tag/1.0.2)
+* [NvmeMate 1.0.3 (Latest)](https://github.com/ydipeepo/nvme-mate/releases/tag/1.0.3)
 
 Alternatively, you can compile it yourself and create the same file.
 You can compile it in Visual Studio 2019 or with the following command:
